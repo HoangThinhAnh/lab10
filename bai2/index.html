@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thongtindangky2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form>
+       <div class="from-group">
+         <label for=""> Họ Và Tên:</label> <br>
+         <input type="text" class="from-control">
+         </div>
+        
+        <div class="from-group">
+           <fieldset>
+           <legend> Giới Tính </legend>
+           <label> <input name="gender" type="radio" checked> Nam</label>
+           <label> <input name="gender" type="radio" > Nữ</label>
+           </fieldset>
+           </div>
+
+        <div class="from-group">
+          <label> Ngày Sinh:</label> <br>
+          <input type="date" class="from-control"> 
+          </div>
+
+        <div class="from-group">
+          <label for=""> Điểm:</label> <br>
+          <input type="number" min="0" max="10" step="0.25" class="from-control">
+          </div>
+
+        <div class="from-group">
+          <label> Nghề Nghiệp:</label> <br>
+          <input list="nghe nghiep" class="from-control">
+            <datalist id="nghe nghiep" >
+             <option value="Giáo Viên">Giáo Viên</option>
+             <option value="Ca Sĩ">Ca Sĩ</option>
+             <option value="Bộ Đội">Bộ Đội</option>
+             <option value="Kỹ Sư">Kỹ Sư</option>
+             <option value="Công An">Công An</option>
+            </datalist>
+            </div>
+        
+         
+        <div class="from-group">
+          <fieldset>
+            <legend> Sở Thích:</legend> 
+            <input type="checkbox"> Thể Thao
+            <input type="checkbox"> Du Lịch
+            <input type="checkbox"> Âm Nhạc
+            <input type="checkbox"> Ẩm Thực
+           </fieldset>
+           </div>
+        
+
+        <div class="from-group">
+          <label for="">Ghi Chú</label> <br>
+          <textarea name="" id="" cols="30" rows="10" class="from-control"></textarea>
+          </div>
+        <hr>
+        
+        <div class="from-group">
+          <input type="submit" class="from-button" value="Đăng Ký" >
+          <input type="submit" class="from-button" value="Nhập Lại">
+         
+        </div>
+    </form>
+</body>
+</html>
